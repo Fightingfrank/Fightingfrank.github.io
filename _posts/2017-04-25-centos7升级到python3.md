@@ -12,7 +12,8 @@ tags:
 ---
 
 
-## <center>centos升级python3
+# centos升级python3
+
 由于centos7系统默认安装的是python2，有时候需要另外安装python3，但不可删除python2，因为yum命令是基于python2的。
 由于目前pip上的python大多都没有更新到python3，我们通过下载源码自己编译的方式进行安装：
 
@@ -25,7 +26,6 @@ $ wget https://www.python.org/ftp/python/3.5.1/Python-3.5.2.tar.xz
 
 因为linux系统支持的压缩命令非常多，不同的命令所用的压缩技术也不一样，下载哪种后缀的压缩文件就需要使用对应的解压缩命令进行解压.
 
-<center>
 
 后缀名 | 代表意思
 ----  | ------
@@ -36,7 +36,7 @@ $ wget https://www.python.org/ftp/python/3.5.1/Python-3.5.2.tar.xz
 .zip | zip程序压缩的数据
 .7z | 极高压缩比的压缩方式
 .xz | 无损数据压缩方式 
-</center>
+
 
 下面介绍不同压缩方式的操作命令：
 
@@ -116,7 +116,8 @@ $ zip -r 目标文件名.zip 原文件／目录名
 $ unzip 文件名.zip
 ```
 
-#### 2、python的安装
+
+### 2、python的安装
 
 前面我们下载了xz格式的python源码包，这里使用上面介绍的命令进行解压：
 
@@ -125,7 +126,7 @@ $ tar Jxvf Python-3.5.2.tar.xz
 ```
 
 现在我们需要安装一些编译python包时需要的编译环境，根据官网的介绍，ubuntu需要以下包：
-<center>![](http://ofmzs1ffp.bkt.clouddn.com/ADF9F6B6-3803-4287-8366-E5781198D22D.png)</center>
+![](http://ofmzs1ffp.bkt.clouddn.com/ADF9F6B6-3803-4287-8366-E5781198D22D.png)
 
 但是实际安装中发现安装该文章所写的[地址](http://www.jianshu.com/p/8bd6e0695d7f)包也能安装成功。
 其中安装的'Development Tools'是一些常用的工具包，可以使用一下命令查看具体内容:
@@ -134,7 +135,7 @@ $ tar Jxvf Python-3.5.2.tar.xz
 $ yum groupinfo 'Development Tools查看'
 ```
 具体结果如下：
-<center>![](http://ofmzs1ffp.bkt.clouddn.com/F1E6CDB0-DD47-42CE-8E0D-8849C52D3BB3.png)</center>
+![](http://ofmzs1ffp.bkt.clouddn.com/F1E6CDB0-DD47-42CE-8E0D-8849C52D3BB3.png)
 
 可以看到必装的包里面是一些make包，gcc之类的工具，如果你的系统没有安装这些包，怕麻烦的话可以直接装这个Development Tools，如果已安装，可以跳过这个步骤。
 
