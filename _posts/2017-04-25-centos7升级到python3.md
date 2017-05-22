@@ -2,17 +2,21 @@
 layout:       post
 title:        Centos升级到Python3
 subtitle:     Centos默认python版本升级
-date:         2017-04-25 20:00:00
+date:         2017-04-25
 author:       CoderFrank
 header-img:   img/post-bg-desk.jpg
 catalog:      true
 tags:
-	- linux
+	- Linux
 	- Python3
 ---
 
 
+
+
 # centos升级python3
+
+
 
 由于centos7系统默认安装的是python2，有时候需要另外安装python3，但不可删除python2，因为yum命令是基于python2的。
 由于目前pip上的python大多都没有更新到python3，我们通过下载源码自己编译的方式进行安装：
