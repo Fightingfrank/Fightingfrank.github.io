@@ -1,14 +1,15 @@
 ---
-layout:       post
-title:        Centos升级到Python3
-subtitle:     Centos默认python版本升级
-date:         2017-04-25
-author:       CoderFrank
-header-img:   img/post-bg-desk.jpg
-catalog:      true
+layout:     post
+title:      Centos升级Python3
+subtitle:   Centos默认Python版本升级
+date:       2017-4-20
+author:     CoderFrank	
+header-img: img/post-bg-desk.jpg
+catalog: true
 tags:
-	- Linux
-	- Python3
+    - Python
+    - Linux
+    - 环境搭建
 ---
 
 
