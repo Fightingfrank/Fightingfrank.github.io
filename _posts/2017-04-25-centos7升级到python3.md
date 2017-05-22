@@ -13,11 +13,7 @@ tags:
 ---
 
 
-
-
-# centos升级python3
-
-
+# Centos升级Python3
 
 由于centos7系统默认安装的是python2，有时候需要另外安装python3，但不可删除python2，因为yum命令是基于python2的。
 由于目前pip上的python大多都没有更新到python3，我们通过下载源码自己编译的方式进行安装：
@@ -37,7 +33,7 @@ $ wget https://www.python.org/ftp/python/3.5.1/Python-3.5.2.tar.xz
 .Z    |compress程序压缩的文件 
 .gz   |gzip程序压缩的文件 
 .bz2  |bzip2程序压缩的文件
-.tar  |tar程序打包的数据，<font color=red>并没有压缩过</font>
+.tar  |tar程序打包的数据，**并没有压缩过**
 .zip | zip程序压缩的数据
 .7z | 极高压缩比的压缩方式
 .xz | 无损数据压缩方式 
@@ -96,7 +92,9 @@ $ tar -Jxvf filename.tar.xz 解压并解包
 
 - .tar
 
-前面的.bz2，.xz，.gz对目录的压缩指的是对目录内的所有文件<font color=red>“分别”</font>进行压缩，而不是将多个文件压缩成一个文件。
+前面的.bz2，.xz，.gz对目录的压缩指的是对目录内的所有文件
+<font color=red>“分别”</font>
+进行压缩，而不是将多个文件压缩成一个文件。
 
 tar就是打包多个文件成一个文件，所以往往我们都是先打包，再压缩。
 
@@ -122,7 +120,7 @@ $ unzip 文件名.zip
 ```
 
 
-### 2、python的安装
+#### 2、python的安装
 
 前面我们下载了xz格式的python源码包，这里使用上面介绍的命令进行解压：
 
