@@ -1,9 +1,5 @@
-# BY Blog
+这是我在这位博主的简书上找到的jekyll主题模版，如果大家有需要，可以直接fork [地址](http://qiubaiying.github.io),最初的 主题是在[Hux这里](https://github.com/Huxpro/huxpro.github.io)
 
-这个README我直接拿[Hux](https://github.com/Huxpro/huxpro.github.io)的来修改了。😅
-### [我的博客在这里 &rarr;](http://qiubaiying.github.io)
-
-![](https://raw.githubusercontent.com/qiubaiying/qiubaiying.github.io/master/img/readme-home.png)
 
 
 ## 使用
@@ -244,11 +240,6 @@ JavaScript 的压缩混淆、Less 的编译、Apache 2.0 许可通告的添加�
 使用`bundle exec jekyll server`的同学在更新 jekyll 后，需要输入`bundle update`来更新依赖的包.
 
 参考文档：[using jekyll with pages](https://help.github.com/articles/using-jekyll-with-pages/) & [Upgrading from 2.x to 3.x](http://jekyllrb.com/docs/upgrading/2-to-3/)
-
-## 致谢
-
-1. 这个模板是从这里[Hux](https://github.com/Huxpro/huxpro.github.io) fork 的。感谢这个作者 
-2. 感谢 Jekyll、Github Pages 和 Bootstrap!
 
 
 
