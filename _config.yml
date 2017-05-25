@@ -8,7 +8,9 @@ keyword: "frank, coderfrank, Java, Python, Algorithm, English learning, code, pr
 url: "http://Fightingfrank.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/Fightingfrank/Fightingfrank.github.io.git" # you code repository
-Regeneration: w
+
+# incremental regeneration (test function,could reload those modified pages)
+incremental: true
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
