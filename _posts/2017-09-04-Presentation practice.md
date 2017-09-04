@@ -1,13 +1,13 @@
 ---
-layout: post
-title: Presentation practice
-subtitle: Research project presentation
-date: 2017-09-04
-author: CoderFrank
-header-img: img/post-bg-unix-linux.jpg
-catalog: true
+layout: 	post
+title: 		Presentation practice
+subtitle: 	York Research project presentation
+date: 		2017-09-04
+author: 	CoderFrank
+header-img: 	img/post-bg-unix-linux.jpg
+catalog: 	true
 tags:
-	- 约克初见
+	- Life
 ---
 
 
