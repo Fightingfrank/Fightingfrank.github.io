@@ -79,3 +79,16 @@ Literals:  字面值
 
 Subsequent：之后的
 
+manipulate：操作
+
+constraint: 约束
+
+depict: 描写
+
+notation: 表示法
+
+glossary:词汇
+
+elicit:抽象，抽出
+
+Amend：改善
