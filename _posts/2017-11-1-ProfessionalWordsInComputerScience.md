@@ -38,6 +38,12 @@ Comparison：比较
 
 Addition：加法
 
+Matrice: 矩阵
+
+transpose：转置
+
+multiply：乘；  multiplying matrice矩阵乘法 (times)
+
 feasible：可行的
 
 Conversely: 相反的
@@ -92,3 +98,12 @@ glossary:词汇
 elicit:抽象，抽出
 
 Amend：改善
+
+simultaneously: 同时的
+
+Parallel: 平行的，并行的
+
+suspend：终止 
+
+resume：继续执行
+
