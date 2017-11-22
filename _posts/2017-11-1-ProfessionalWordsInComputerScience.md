@@ -107,3 +107,36 @@ suspend：终止
 
 resume：继续执行
 
+Sequence diagram: 顺序图，循序图，时序图
+
+Collaborate: 合作
+
+reflexive message：反射性消息
+
+Multiplicity: 多样性
+
+Aggregation:聚合；聚集
+
+Composition:组成
+
+hierarchy: 分层结构 
+
+boundary: 边界
+
+Differentiate: 区分
+
+ordinate: 
+
+entity: 实体
+
+domain:域
+
+omit: 省略
+
+variant：变体
+
+Conduct: 引导
+
+pseudorandom: 伪随机
+
+seed: 种子
