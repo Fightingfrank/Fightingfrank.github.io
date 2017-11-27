@@ -14,15 +14,25 @@ tags:
 
 #### 常见计算机英语单词（长期更新）
 
+
+
 Recursive Algorithm： 递归算法
 
 Robustness：鲁棒性/健壮性
+
+decomposition: 分解
+
+**encapsulation  **:封装
+
+Couple: 耦合
 
 Arbitrarily：任意的
 
 Operand：操作数
 
 Fetch：取。fetch operand取址运算
+
+Criteria:标准
 
 constant：常数
 
@@ -140,3 +150,5 @@ Conduct: 引导
 pseudorandom: 伪随机
 
 seed: 种子
+
+facade: 外观   facade pattern.外观模式
